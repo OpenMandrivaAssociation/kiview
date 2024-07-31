@@ -31,7 +31,7 @@ Requires: qt6-qtwebengine
 Requires: kf6-kirigami
 Requires: kf6-ki18n
 Requires: kf6-kcoreaddons
-R#equires: qqc2-desktop-style
+#Requires: qqc2-desktop-style
 Requires: gstreamer1.0-libav
 Requires: gstreamer1.0-plugins-bad
 Requires: wl-clipboard
