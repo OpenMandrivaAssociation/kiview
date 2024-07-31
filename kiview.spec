@@ -23,15 +23,16 @@ BuildRequires: unzip
 
 
 Requires: glibc
-Requires: qt6-webengine
+Requires: qt6-qtwebengine
 Requires: kf6-kirigami
 Requires: kf6-ki18n
 Requires: kf6-kcoreaddons
 Requires: qqc2-desktop-style
-Requires: gstreamer-plugins-libav
-Requires: gstreamer-plugin-openh264
+Requires: gstreamer1.0-libav
+Requires: gstreamer1.0-plugins-bad
 Requires: wl-clipboard
-Requires: xclip
+#FIXME# In extra repo so lets make it recommends for now.
+Recommends: xclip
 
 
 %description
