@@ -17,6 +17,7 @@ BuildRequires: qqc2-desktop-style-devel
 BuildRequires: cmake(Qt6QuickControls2)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6Test)
+BuildRequires: cmake(Qt6Widgets)
 BuildRequires: cmake(Qt6WebEngineQuick)
 BuildRequires: unzip
 
