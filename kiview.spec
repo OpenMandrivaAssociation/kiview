@@ -7,6 +7,7 @@ Url:            https://github.com/Nyre221/Kiview
 Source0:        https://invent.kde.org/danagost/Kiview/-/archive/v%{version}/Kiview-v%{version}.tar.bz2
 Group:          Application,KDE,Qt,Utility
 
+BuildRequires: appstream
 BuildRequires: cmake
 BuildRequires: pkgconfig(Qt6WebEngineCore)
 BuildRequires: cmake(KF6Kirigami)
@@ -16,9 +17,12 @@ BuildRequires: cmake(KF6CoreAddons)
 BuildRequires: qqc2-desktop-style-devel
 BuildRequires: cmake(Qt6QuickControls2)
 BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(Qt6QmlCore)
+BuildRequires: cmake(Qt6QmlNetwork)
 BuildRequires: cmake(Qt6Test)
 BuildRequires: cmake(Qt6Widgets)
 BuildRequires: cmake(Qt6WebEngineQuick)
+BuildRequires: qt6-qtbase-theme-gtk3
 BuildRequires: unzip
 
 
