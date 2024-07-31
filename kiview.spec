@@ -1,6 +1,6 @@
 Name:           kiview
 Version:        1.1
-Release:        1
+Release:        2
 License:        GPL-3.0
 Summary:        Quick preview of files and folder in Dolphin
 Url:            https://github.com/Nyre221/Kiview
@@ -14,7 +14,7 @@ BuildRequires: cmake(KF6Kirigami)
 BuildRequires: cmake(KF6Declarative)
 BuildRequires: cmake(KF6I18n)
 BuildRequires: cmake(KF6CoreAddons)
-BuildRequires: qqc2-desktop-style-devel
+#BuildRequires: qqc2-desktop-style-devel
 BuildRequires: cmake(Qt6QuickControls2)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6QmlCore)
@@ -31,7 +31,7 @@ Requires: qt6-qtwebengine
 Requires: kf6-kirigami
 Requires: kf6-ki18n
 Requires: kf6-kcoreaddons
-Requires: qqc2-desktop-style
+R#equires: qqc2-desktop-style
 Requires: gstreamer1.0-libav
 Requires: gstreamer1.0-plugins-bad
 Requires: wl-clipboard
